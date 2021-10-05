@@ -1,3 +1,3 @@
 ControlFocus("Open","","Edit1")
-ControlSetText("Open","","Edit1","D:\PT\MangoSanity\assets\sample.jpg")
+ControlSetText("Open","","Edit1","C:\uploadFileAssets\sample.jpg")
 ControlClick("Open","","Button1")

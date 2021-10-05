@@ -1,3 +1,3 @@
 ControlFocus("Open","","Edit1")
-ControlSetText("Open","","Edit1","D:\PT\MangoSanity\assets\user_import.csv")
+ControlSetText("Open","","Edit1","C:\uploadFileAssets\user_import.csv")
 ControlClick("Open","","Button1")

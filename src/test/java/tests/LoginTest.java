@@ -14,15 +14,12 @@ public class LoginTest{
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 //		ext.setTest(methodName, "Posts test cases");
 //		baseTest.ext.setTest(methodName, "Posts test cases");
-	
 //		baseTest.login.login.loadLoginPage();
 //		baseTest.login.login.emailId();
 //		baseTest.login.login.password();
 		baseTest.login.login.clickLogin();
 		baseTest.login.login.verifyLogin();
 		System.out.println("login test executed>>>>>>>>>>");
-		
-		
 	}
 	
 }

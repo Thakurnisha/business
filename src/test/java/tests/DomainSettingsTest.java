@@ -22,7 +22,7 @@ public class DomainSettingsTest extends BaseTest{
 		login();
 		setLandingPage();
 		changePassword();
-//		importUser();
+		importUser();
 	}
 	
 	

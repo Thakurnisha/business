@@ -26,7 +26,7 @@ public class CommonVariables {
 	public String csvFileTrackerImport ="";
 	
 	public void readConfigFile() throws IOException {
-//		System.setProperty("env", "QA"); //for testing in local comment when adding to git
+//		System.setProperty("env", "EE"); //for testing in local comment when adding to git
 		String dir = System.getProperty("user.dir");
 		try {
 			InputStream input;
