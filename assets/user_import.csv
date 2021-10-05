@@ -1,0 +1,3 @@
+name,firstname,lastname,email/login,dob,title,location,organization,phone,desktop_extension,mobile,manager,Enabled,locale,Office Locations,also known as,education,experience,expertise,employee id,gender,Languages Known,relationship status,Name Of Children,alternate email,date of joining,address,skype,Social Media Handles,bio,DefaultPassword
+Automated_01 User,Automated_01,User,automated_01@mailinator.com,mm/dd/yyyy,,Seattle USA,hollywood,(+91)1234123411,11,(+91)1234123411,,TRUE,german,,,,,,,,,,,,,,,,,
+Automated_02 User,Automated_02,User,automated_02@mailinator.com,mm/dd/yyyy,,New York NY,HollyWood,(+91)1234123411,44,(+91)1234123411,,TRUE,german,,,,,,,,,,,,,,,,,
