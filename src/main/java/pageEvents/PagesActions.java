@@ -225,6 +225,34 @@ public class PagesActions {
 		 sleepMethod(3000);
 	 }
 	 
+	 public void findPage(String pageName) {
+		 ExtentReport.logger.info("Finding pages created from automation");
+		 WebElement pages =  fetchElement.getElement("ID", pageObjects.PagesObjects.pageTabBar);
+		 List <WebElement> each = pages.findElements(By.tagName("li"));
+			boolean isPagePresent = false;
+		try {
+			for(int i=0; i<each.size();i++) {
+				 String title ="";
+				 try {
+					 title = each.get(i).findElement(By.xpath("./a/span")).getAttribute("innerHTML").trim();   
+				 }catch(Exception e) {
+					 System.out.println(e);
+				 }
+				 if(title.contains(pageName)) {
+					 isPagePresent = true;
+					 each.get(i).findElement(By.xpath("./a")).click();
+					 sleepMethod(5000);
+					 ExtentReport.logger.info("Page is present");
+					 break;
+				 }
+			 }
+		}catch(Exception e) {
+			System.out.println(e);
+		}	
+		
+		
+	 }
+	 
 	 
  
  

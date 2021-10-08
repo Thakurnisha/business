@@ -24,7 +24,7 @@ public class PagesTest extends BaseTest{
 		System.out.println("pagesTestCases test executed>>>>>>>>>>");				
 		login();
 		addNewCompanyStaticPage();
-//		addNewCompanyDynamicPage();
+		addNewCompanyDynamicPage();
 		
 	}
 	
@@ -72,7 +72,7 @@ public class PagesTest extends BaseTest{
 			pages.doneButtonPath();
 			pages.saveAndPublish();
 			pages.confirmPublish();
-			pages.validatePageDeleted(cv.pageTitle+"_edited_static_");
+//			pages.validatePageDeleted(cv.pageTitle+"_edited_static_");
 			
 			
 			//delete page
@@ -126,7 +126,7 @@ public class PagesTest extends BaseTest{
 			pages.doneButtonPath();
 			pages.saveAndPublish();
 			pages.confirmPublish();
-			pages.validatePageDeleted(cv.pageTitle+"_edited_dynamic_");
+//			pages.validatePageDeleted(cv.pageTitle+"_edited_dynamic_");
 			
 			
 			//delete dynamic page

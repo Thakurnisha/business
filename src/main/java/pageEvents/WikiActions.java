@@ -16,9 +16,9 @@ public class WikiActions {
 
 	String unq = Long.toString(CommonVariables.uniqueNumber());
 	
-	public void addTeamName() {
+	public void addTeamName(String projectName) {
 		 ExtentReport.logger.pass("Selecting team name");
-		 fetchElement.getElement("ID", pageObjects.WikiObjects.teamSelection).sendKeys("Mango_project_");
+		 fetchElement.getElement("ID", pageObjects.WikiObjects.teamSelection).sendKeys(projectName);
 		 sleepMethod(3000);
 		 fetchElement.getElement("ID", pageObjects.WikiObjects.teamSelection).sendKeys(Keys.TAB );
 	 }
@@ -82,7 +82,7 @@ public class WikiActions {
 	public void checkTableOfContent() {
 		ExtentReport.logger.info("Checking Table of content");
 		try {
-			
+			sleepMethod(3000);
 			fetchElement.getElement("XPATH", pageObjects.WikiObjects.tableOfContentFirstLink).click();
 			sleepMethod(3000);
 			try {

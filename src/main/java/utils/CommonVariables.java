@@ -24,6 +24,7 @@ public class CommonVariables {
 	public String trackerName ="";
 	public String csvFileUserImport ="";
 	public String csvFileTrackerImport ="";
+	public String surveyName ="";
 	
 	public void readConfigFile() throws IOException {
 //		System.setProperty("env", "EE"); //for testing in local comment when adding to git
@@ -54,6 +55,7 @@ public class CommonVariables {
 			trackerName = props.getProperty("trackerName");
 			csvFileUserImport = props.getProperty("uploadUserCsv");
 			csvFileTrackerImport = props.getProperty("uploadTrackerCsv");
+			surveyName = props.getProperty("surveyTitle");
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -11,7 +11,8 @@
    	<class name="tests.PagesTest" />
    	<class name="tests.FilesTest" />
    	<class name="tests.TrackerTest" />
-    <class name="tests.DomainSettingsTest" />
+   	<class name="tests.DomainSettingsTest" />
+   	<class name="tests.CleanUpTest" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
