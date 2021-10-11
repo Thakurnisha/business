@@ -84,9 +84,26 @@ public class WebActions {
 	}
 	
 	
+	
+	public void hoverElement(WebElement identifierElement) {
+		try {
+		Actions actions = new Actions(DriverConfig.webDriver);
+		WebElement menu = identifierElement;
+		actions.moveToElement(menu);
+		actions.click().build().perform();
+		Thread.sleep(5000);
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
 	public void addDataToCKEditor(WebElement elem, String data) {
 		WebElement editorFrame = elem;
 		DriverConfig.webDriver.switchTo().frame(editorFrame);
+		DriverConfig.webDriver.findElement(By.tagName("body")).click();
 		DriverConfig.webDriver.findElement(By.tagName("body")).sendKeys(data);
 		DriverConfig.webDriver.switchTo().defaultContent();
 	}

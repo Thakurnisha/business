@@ -33,8 +33,9 @@ public class CommonVariables {
 			InputStream input;
 			String environmentData = System.getProperty("env");
 			if(environmentData.equals("QA")) {
-				
 				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\qa.properties");
+			}else if(environmentData.equals("US-DC")) {
+				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\us-dc.properties");
 			}else {
 				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\ee.properties");
 			}

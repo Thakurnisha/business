@@ -4,16 +4,16 @@
   <test thread-count="1" parallel="methods" name="MangoApps(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.CleanUpTest">
+      <class name="tests.SurveyTest">
         <methods>
           <include name="beforeClassMethod"/>
           <include name="beforeSuiteMethod"/>
+          <include name="surveyTestCases"/>
           <include name="beforeMethod"/>
           <include name="afterClassMethod"/>
-          <include name="cleanUpTestCases"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- tests.CleanUpTest -->
+      </class> <!-- tests.SurveyTest -->
     </classes>
   </test> <!-- MangoApps(failed) -->
 </suite> <!-- Failed suite [Suite] -->
