@@ -44,22 +44,21 @@ public class WikiTest extends BaseTest{
 	void addNewWikiFromComposeWithTableOfContent() {
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		try {
-//			post.clickOncompose();
-//			post.expandMenu();
-//			post.selectFromMenu("Wikis");
-//			wiki.addTeamName("abc(project)");
-//			
-//			ptemplate.addWikiTitle(cv.wikiName+"_from_compose_");
-//			wiki.selectWikiTemplate(2);
-//			ptemplate.createWikiButton();
-//			
-//			wiki.selectFilter();
-//			ptemplate.validateDraftWiki(cv.wikiName+"_from_compose_");
-//			wiki.selectDraftWiki(cv.wikiName+"_from_compose_");
-//						
-//			ptemplate.addDataToWiki();			
-//			ptemplate.publishWiki();
-			wiki.exitFullScreen();
+			post.clickOncompose();
+			post.expandMenu();
+			post.selectFromMenu("Wikis");
+			wiki.addTeamName(cv.projectName);
+			
+			ptemplate.addWikiTitle(cv.wikiName+"_from_compose_");
+			wiki.selectWikiTemplate(2);
+			ptemplate.createWikiButton();
+			
+			wiki.selectFilter();
+			ptemplate.validateDraftWiki(cv.wikiName+"_from_compose_");
+			wiki.selectDraftWiki(cv.wikiName+"_from_compose_");
+						
+			ptemplate.addDataToWiki();			
+			ptemplate.publishWiki();
 			
 			wiki.checkTableOfContent();
 			

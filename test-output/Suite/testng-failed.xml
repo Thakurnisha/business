@@ -4,16 +4,16 @@
   <test thread-count="1" parallel="methods" name="MangoApps(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.SurveyTest">
+      <class name="tests.WikiTest">
         <methods>
           <include name="beforeClassMethod"/>
           <include name="beforeSuiteMethod"/>
-          <include name="surveyTestCases"/>
           <include name="beforeMethod"/>
           <include name="afterClassMethod"/>
+          <include name="wikiTestCases"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- tests.SurveyTest -->
+      </class> <!-- tests.WikiTest -->
     </classes>
   </test> <!-- MangoApps(failed) -->
 </suite> <!-- Failed suite [Suite] -->

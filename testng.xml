@@ -4,7 +4,7 @@
   <test name="MangoApps">
   <parameter name="browser" value="chrome" />
    <classes>
-   	<class name="tests.CreateProjectTemplateTest" />
+	<class name="tests.CreateProjectTemplateTest" />
    	<class name="tests.CreateProjectFromTemplateTest" />
    	<class name="tests.PostsTest" />
    	<class name="tests.WikiTest" />

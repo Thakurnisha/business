@@ -48,6 +48,7 @@ public class CreateProjectFromTemplate {
 				 int index = templateName.indexOf("mango_template_");
 				 if(index != -1) {
 					 each.get(i).click();
+					 sleepMethod(20000);
 					 break;
 				 }
 				 
@@ -103,7 +104,7 @@ public class CreateProjectFromTemplate {
 		public void saveAndContiue() {
 			fetchElement.getElement("ID", pageObjects.CreateProjectFromTemplateObjects.saveAndContinuePath).click();
 			ExtentReport.logger.info("Saving project and configuring module");
-			sleepMethod(50000);
+			sleepMethod(120000);
 		}
 		
 		//configure page
