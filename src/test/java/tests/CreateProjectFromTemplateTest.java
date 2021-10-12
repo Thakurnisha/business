@@ -14,7 +14,7 @@ public class CreateProjectFromTemplateTest extends BaseTest {
 	
 	
 	@Test(priority = 2)
-	void projectTemplatesCreation() throws InterruptedException {
+	void createProjectFromTemplates() throws InterruptedException {
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		ext.setTest(methodName, "Create project from template");
 		login();

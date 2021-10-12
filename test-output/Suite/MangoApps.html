@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>MangoApps</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 11 22:38:20 IST 2021</td>
+<td>Started on:</td><td>Mon Oct 11 22:53:37 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>82 seconds (82053 ms)</td>
+<tr><td>Total time:</td><td>2483 seconds (2483401 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,87 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.CleanUpTest.cleanUpTestCases()'><b>cleanUpTestCases</b><br>Test class: tests.CleanUpTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#delete_confirm&quot;}
+  (Session info: chrome=94.0.4606.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PUSHKARV&apos;, ip: &apos;192.168.105.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Pushkar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5e1c20775b2efdd0f87b46ee9515a4c
+*** Element info: {Using=id, value=delete_confirm}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utils.WebActions.getElement(WebActions.java:19)
+	at pageEvents.PagesActions.addDeleteText(PagesActions.java:185)
+	at tests.CleanUpTest.deletePage(CleanUpTest.java:58)
+	at tests.CleanUpTest.cleanUpTestCases(CleanUpTest.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1747078249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1747078249'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#delete_confirm&quot;}
+  (Session info: chrome=94.0.4606.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PUSHKARV&apos;, ip: &apos;192.168.105.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Pushkar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5e1c20775b2efdd0f87b46ee9515a4c
+*** Element info: {Using=id, value=delete_confirm}
+	at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utils.WebActions.getElement(WebActions.java:19)
+	at pageEvents.PagesActions.addDeleteText(PagesActions.java:185)
+	at tests.CleanUpTest.deletePage(CleanUpTest.java:58)
+	at tests.CleanUpTest.cleanUpTestCases(CleanUpTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>132</td>
+<td>tests.CleanUpTest@437da279</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +156,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='tests.CreateProjectFromTemplateTest.projectTemplatesCreation()'><b>projectTemplatesCreation</b><br>Test class: tests.CreateProjectFromTemplateTest</td>
+<td></td>
+<td>309</td>
+<td>tests.CreateProjectFromTemplateTest@4803b726</td></tr>
+<tr>
+<td title='tests.TrackerTest.trackerTestCases()'><b>trackerTestCases</b><br>Test class: tests.TrackerTest</td>
+<td></td>
+<td>218</td>
+<td>tests.TrackerTest@32502377</td></tr>
+<tr>
+<td title='tests.CreateProjectTemplateTest.projectTemplatesCreation()'><b>projectTemplatesCreation</b><br>Test class: tests.CreateProjectTemplateTest</td>
+<td></td>
+<td>684</td>
+<td>tests.CreateProjectTemplateTest@6e0f5f7f</td></tr>
+<tr>
+<td title='tests.PostsTest.postTestCases()'><b>postTestCases</b><br>Test class: tests.PostsTest</td>
+<td></td>
+<td>83</td>
+<td>tests.PostsTest@53ce1329</td></tr>
+<tr>
+<td title='tests.FilesTest.filesTestCases()'><b>filesTestCases</b><br>Test class: tests.FilesTest</td>
+<td></td>
+<td>393</td>
+<td>tests.FilesTest@31fa1761</td></tr>
+<tr>
+<td title='tests.SurveyTest.surveyTestCases()'><b>surveyTestCases</b><br>Test class: tests.SurveyTest</td>
+<td></td>
+<td>96</td>
+<td>tests.SurveyTest@550dbc7a</td></tr>
+<tr>
 <td title='tests.WikiTest.wikiTestCases()'><b>wikiTestCases</b><br>Test class: tests.WikiTest</td>
 <td></td>
-<td>79</td>
-<td>tests.WikiTest@593aaf41</td></tr>
+<td>68</td>
+<td>tests.WikiTest@6404f418</td></tr>
+<tr>
+<td title='tests.PagesTest.pagesTestCases()'><b>pagesTestCases</b><br>Test class: tests.PagesTest</td>
+<td></td>
+<td>332</td>
+<td>tests.PagesTest@1de5f259</td></tr>
+<tr>
+<td title='tests.DomainSettingsTest.wikiTestCases()'><b>wikiTestCases</b><br>Test class: tests.DomainSettingsTest</td>
+<td></td>
+<td>145</td>
+<td>tests.DomainSettingsTest@36916eb0</td></tr>
 </table><p>
 </body>
 </html>
