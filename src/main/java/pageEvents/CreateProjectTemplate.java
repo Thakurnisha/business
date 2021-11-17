@@ -91,6 +91,7 @@ public class CreateProjectTemplate {
 		try {
 			Thread.sleep(3000);
 			Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\autoIt\\uploadTeamImage.exe");
+			Thread.sleep(10000);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -101,6 +102,7 @@ public class CreateProjectTemplate {
 	public void saveImage() {
 		ExtentReport.logger.info("Saving Image");
 		fetchElement.getElement("ID", pageObjects.ProjectTemplateObjects.saveButtonPath).click();
+		sleepMethod(5000);
 		
 	}
 	
@@ -268,7 +270,7 @@ public class CreateProjectTemplate {
 			try {
 				sleepMethod(3000);
 				Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\autoIt\\uploadTeamImage.exe");
-				sleepMethod(5000);
+				sleepMethod(10000);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -278,6 +280,7 @@ public class CreateProjectTemplate {
 	 public void selectFirstImageFromMediaGallery() {
 		 ExtentReport.logger.info("Select first item from image gallery");
 		 fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.firstImagePath).click();
+		 sleepMethod(5000);
 	 }
 	 
 	 public void clickNextButton() {
@@ -289,7 +292,7 @@ public class CreateProjectTemplate {
 	 public void clickApplyButton() {
 		 ExtentReport.logger.info("Clicking on apply button");
 		 fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.mediaGalleryApplyPath).click();
-		 sleepMethod(5000);
+		 sleepMethod(10000);
 	 }
 	 
 	 
@@ -624,7 +627,7 @@ public class CreateProjectTemplate {
 					Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\autoIt\\uploadZipFile.exe");
 				}
 				
-				sleepMethod(5000);
+				sleepMethod(10000);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="19" passed="9" failed="1" skipped="0">
+<testng-results ignored="9" total="19" passed="0" failed="0" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-11T22:53:37 IST" name="Suite" finished-at="2021-10-11T23:35:01 IST" duration-ms="2483401">
+  <suite started-at="2021-11-16T20:55:00 IST" name="Suite" finished-at="2021-11-16T20:55:00 IST" duration-ms="119">
     <groups>
     </groups>
-    <test started-at="2021-10-11T22:53:37 IST" name="MangoApps" finished-at="2021-10-11T23:35:01 IST" duration-ms="2483401">
-      <class name="tests.CreateProjectTemplateTest">
-        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-10-11T22:53:37 IST" name="beforeSuiteMethod" finished-at="2021-10-11T22:53:37 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuiteMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-10-11T22:53:37 IST" name="beforeClassMethod" finished-at="2021-10-11T22:53:37 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-10-11T22:53:37 IST" name="beforeMethod" finished-at="2021-10-11T22:53:39 IST" duration-ms="1574" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="projectTemplatesCreation()[pri:1, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-10-11T22:53:39 IST" name="projectTemplatesCreation" finished-at="2021-10-11T23:05:03 IST" duration-ms="684170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- projectTemplatesCreation -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-10-11T23:05:03 IST" name="afterMethod" finished-at="2021-10-11T23:05:04 IST" duration-ms="1103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-10-11T23:05:04 IST" name="afterClassMethod" finished-at="2021-10-11T23:05:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- tests.CreateProjectTemplateTest -->
+    <test started-at="2021-11-16T20:55:00 IST" name="MangoApps" finished-at="2021-11-16T20:55:00 IST" duration-ms="119">
       <class name="tests.FilesTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-10-11T23:12:51 IST" name="beforeClassMethod" finished-at="2021-10-11T23:12:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-10-11T23:12:51 IST" name="beforeMethod" finished-at="2021-10-11T23:12:52 IST" duration-ms="1104" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -52,114 +19,330 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="filesTestCases()[pri:5, instance:tests.FilesTest@31fa1761]" started-at="2021-10-11T23:12:52 IST" name="filesTestCases" finished-at="2021-10-11T23:19:26 IST" duration-ms="393501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filesTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-10-11T23:19:26 IST" name="afterMethod" finished-at="2021-10-11T23:19:27 IST" duration-ms="818" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-10-11T23:19:27 IST" name="afterClassMethod" finished-at="2021-10-11T23:19:27 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- tests.FilesTest -->
-      <class name="tests.CleanUpTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-10-11T23:32:47 IST" name="beforeClassMethod" finished-at="2021-10-11T23:32:47 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-10-11T23:32:47 IST" name="beforeMethod" finished-at="2021-10-11T23:32:48 IST" duration-ms="1163" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="cleanUpTestCases()[pri:100, instance:tests.CleanUpTest@437da279]" started-at="2021-10-11T23:32:48 IST" name="cleanUpTestCases" finished-at="2021-10-11T23:35:00 IST" duration-ms="132271" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#delete_confirm"}
-  (Session info: chrome=94.0.4606.71)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUSHKARV', ip: '192.168.105.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Pushkar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a5e1c20775b2efdd0f87b46ee9515a4c
-*** Element info: {Using=id, value=delete_confirm}]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#delete_confirm"}
-  (Session info: chrome=94.0.4606.71)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PUSHKARV', ip: '192.168.105.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\Pushkar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a5e1c20775b2efdd0f87b46ee9515a4c
-*** Element info: {Using=id, value=delete_confirm}
-at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at utils.WebActions.getElement(WebActions.java:19)
-at pageEvents.PagesActions.addDeleteText(PagesActions.java:185)
-at tests.CleanUpTest.deletePage(CleanUpTest.java:58)
-at tests.CleanUpTest.cleanUpTestCases(CleanUpTest.java:23)
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanUpTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-10-11T23:35:00 IST" name="afterMethod" finished-at="2021-10-11T23:35:01 IST" duration-ms="748" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="filesTestCases()[pri:5, instance:tests.FilesTest@31fa1761]" started-at="2021-11-16T20:55:00 IST" name="filesTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filesTestCases -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300847" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-10-11T23:35:01 IST" name="afterClassMethod" finished-at="2021-10-11T23:35:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.FilesTest@31fa1761]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300848" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- tests.FilesTest -->
+      <class name="tests.CreateProjectTemplateTest">
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-11-16T20:55:00 IST" name="beforeSuiteMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="projectTemplatesCreation()[pri:1, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-11-16T20:55:00 IST" name="projectTemplatesCreation" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectTemplatesCreation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300791" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CreateProjectTemplateTest@6e0f5f7f]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300793" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- tests.CreateProjectTemplateTest -->
+      <class name="tests.CleanUpTest">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="cleanUpTestCases()[pri:100, instance:tests.CleanUpTest@437da279]" started-at="2021-11-16T20:55:00 IST" name="cleanUpTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpTestCases -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300876" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CleanUpTest@437da279]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300877" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- tests.CleanUpTest -->
       <class name="tests.PagesTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-10-11T23:19:27 IST" name="beforeClassMethod" finished-at="2021-10-11T23:19:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-10-11T23:19:27 IST" name="beforeMethod" finished-at="2021-10-11T23:19:28 IST" duration-ms="1118" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -167,24 +350,108 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="pagesTestCases()[pri:6, instance:tests.PagesTest@1de5f259]" started-at="2021-10-11T23:19:28 IST" name="pagesTestCases" finished-at="2021-10-11T23:25:00 IST" duration-ms="332133" status="PASS">
+        <test-method signature="pagesTestCases()[pri:6, instance:tests.PagesTest@1de5f259]" started-at="2021-11-16T20:55:00 IST" name="pagesTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagesTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-10-11T23:25:00 IST" name="afterMethod" finished-at="2021-10-11T23:25:01 IST" duration-ms="749" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300839" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-10-11T23:25:01 IST" name="afterClassMethod" finished-at="2021-10-11T23:25:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.PagesTest@1de5f259]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300841" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- tests.PagesTest -->
       <class name="tests.WikiTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-10-11T23:11:41 IST" name="beforeMethod" finished-at="2021-10-11T23:11:42 IST" duration-ms="1053" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -192,28 +459,108 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-10-11T23:11:41 IST" name="beforeClassMethod" finished-at="2021-10-11T23:11:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method signature="wikiTestCases()[pri:4, instance:tests.WikiTest@6404f418]" started-at="2021-10-11T23:11:42 IST" name="wikiTestCases" finished-at="2021-10-11T23:12:51 IST" duration-ms="68792" status="PASS">
+        <test-method signature="wikiTestCases()[pri:4, instance:tests.WikiTest@6404f418]" started-at="2021-11-16T20:55:00 IST" name="wikiTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikiTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-10-11T23:12:51 IST" name="afterMethod" finished-at="2021-10-11T23:12:51 IST" duration-ms="739" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300822" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-10-11T23:12:51 IST" name="afterClassMethod" finished-at="2021-10-11T23:12:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.WikiTest@6404f418]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300827" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- tests.WikiTest -->
       <class name="tests.SurveyTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-10-11T23:31:08 IST" name="beforeMethod" finished-at="2021-10-11T23:31:09 IST" duration-ms="1120" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -221,28 +568,108 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-10-11T23:31:08 IST" name="beforeClassMethod" finished-at="2021-10-11T23:31:08 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method signature="surveyTestCases()[pri:9, instance:tests.SurveyTest@550dbc7a]" started-at="2021-10-11T23:31:09 IST" name="surveyTestCases" finished-at="2021-10-11T23:32:46 IST" duration-ms="96888" status="PASS">
+        <test-method signature="surveyTestCases()[pri:9, instance:tests.SurveyTest@550dbc7a]" started-at="2021-11-16T20:55:00 IST" name="surveyTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surveyTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-10-11T23:32:46 IST" name="afterMethod" finished-at="2021-10-11T23:32:47 IST" duration-ms="772" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300863" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-10-11T23:32:47 IST" name="afterClassMethod" finished-at="2021-10-11T23:32:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.SurveyTest@550dbc7a]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300864" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- tests.SurveyTest -->
       <class name="tests.TrackerTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-10-11T23:25:01 IST" name="beforeMethod" finished-at="2021-10-11T23:25:02 IST" duration-ms="1097" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -250,57 +677,108 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-10-11T23:25:01 IST" name="beforeClassMethod" finished-at="2021-10-11T23:25:01 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method signature="trackerTestCases()[pri:7, instance:tests.TrackerTest@32502377]" started-at="2021-10-11T23:25:02 IST" name="trackerTestCases" finished-at="2021-10-11T23:28:40 IST" duration-ms="218092" status="PASS">
+        <test-method signature="trackerTestCases()[pri:7, instance:tests.TrackerTest@32502377]" started-at="2021-11-16T20:55:00 IST" name="trackerTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trackerTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-10-11T23:28:40 IST" name="afterMethod" finished-at="2021-10-11T23:28:41 IST" duration-ms="770" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300857" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-10-11T23:28:41 IST" name="afterClassMethod" finished-at="2021-10-11T23:28:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.TrackerTest@32502377]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300858" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- tests.TrackerTest -->
-      <class name="tests.PostsTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-10-11T23:10:15 IST" name="beforeClassMethod" finished-at="2021-10-11T23:10:15 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-10-11T23:10:15 IST" name="beforeMethod" finished-at="2021-10-11T23:10:16 IST" duration-ms="1099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="postTestCases()[pri:3, instance:tests.PostsTest@53ce1329]" started-at="2021-10-11T23:10:16 IST" name="postTestCases" finished-at="2021-10-11T23:11:40 IST" duration-ms="83602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-10-11T23:11:40 IST" name="afterMethod" finished-at="2021-10-11T23:11:41 IST" duration-ms="769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-10-11T23:11:41 IST" name="afterClassMethod" finished-at="2021-10-11T23:11:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- tests.PostsTest -->
       <class name="tests.DomainSettingsTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-10-11T23:28:41 IST" name="beforeMethod" finished-at="2021-10-11T23:28:42 IST" duration-ms="1369" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -308,32 +786,108 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-10-11T23:28:41 IST" name="beforeClassMethod" finished-at="2021-10-11T23:28:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method signature="wikiTestCases()[pri:8, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-10-11T23:28:42 IST" name="wikiTestCases" finished-at="2021-10-11T23:31:07 IST" duration-ms="145034" status="PASS">
+        <test-method signature="wikiTestCases()[pri:8, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-11-16T20:55:00 IST" name="wikiTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wikiTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-10-11T23:31:07 IST" name="afterMethod" finished-at="2021-10-11T23:31:08 IST" duration-ms="774" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300871" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-10-11T23:31:08 IST" name="afterClassMethod" finished-at="2021-10-11T23:31:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.DomainSettingsTest@36916eb0]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300872" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
       </class> <!-- tests.DomainSettingsTest -->
-      <class name="tests.CreateProjectFromTemplateTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-10-11T23:05:04 IST" name="beforeClassMethod" finished-at="2021-10-11T23:05:04 IST" duration-ms="1" status="PASS">
+      <class name="tests.PostsTest">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-10-11T23:05:04 IST" name="beforeMethod" finished-at="2021-10-11T23:05:05 IST" duration-ms="1130" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -341,18 +895,207 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="projectTemplatesCreation()[pri:2, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-10-11T23:05:05 IST" name="projectTemplatesCreation" finished-at="2021-10-11T23:10:14 IST" duration-ms="309001" status="PASS">
+        <test-method signature="postTestCases()[pri:3, instance:tests.PostsTest@53ce1329]" started-at="2021-11-16T20:55:00 IST" name="postTestCases" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- projectTemplatesCreation -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-10-11T23:10:14 IST" name="afterMethod" finished-at="2021-10-11T23:10:15 IST" duration-ms="801" status="PASS">
+        </test-method> <!-- postTestCases -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300811" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-10-11T23:10:15 IST" name="afterClassMethod" finished-at="2021-10-11T23:10:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.PostsTest@53ce1329]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300812" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- tests.PostsTest -->
+      <class name="tests.CreateProjectFromTemplateTest">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-11-16T20:55:00 IST" name="beforeClassMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-11-16T20:55:00 IST" name="beforeMethod" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createProjectFromTemplates()[pri:2, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-11-16T20:55:00 IST" name="createProjectFromTemplates" finished-at="2021-11-16T20:55:00 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utils.CommonVariables.readConfigFile(CommonVariables.java:35)
+at tests.BaseTest.beforeMethod(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectFromTemplates -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-11-16T20:55:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300803" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CreateProjectFromTemplateTest@4803b726]" started-at="2021-11-16T20:55:00 IST" name="afterClassMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1637076300804" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->

@@ -21,10 +21,14 @@ public class PagesTest extends BaseTest{
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		BaseTest.ext.setTest(methodName, "Pages test cases");
 		
-		System.out.println("pagesTestCases test executed>>>>>>>>>>");				
-		login();
-		addNewCompanyStaticPage();
-		addNewCompanyDynamicPage();
+		if(System.getProperty("env").equals("YMCA")) {
+			System.out.println("pagesTestCases skipped for >>>>>>>>>>"+System.getProperty("env"));
+		}else {
+			System.out.println("pagesTestCases test executed>>>>>>>>>>");				
+			login();
+			addNewCompanyStaticPage();
+			addNewCompanyDynamicPage();
+		}
 		
 	}
 	

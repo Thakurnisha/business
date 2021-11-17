@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="1" parallel="methods" name="MangoApps(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MangoApps(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="tests.WikiTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="wikiTestCases"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.WikiTest -->
+      <class name="tests.PagesTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="pagesTestCases"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.PagesTest -->
+      <class name="tests.CreateProjectFromTemplateTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="createProjectFromTemplates"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.CreateProjectFromTemplateTest -->
       <class name="tests.CleanUpTest">
         <methods>
           <include name="beforeClassMethod"/>
@@ -14,6 +44,66 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- tests.CleanUpTest -->
+      <class name="tests.DomainSettingsTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="wikiTestCases"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.DomainSettingsTest -->
+      <class name="tests.TrackerTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="trackerTestCases"/>
+          <include name="afterClassMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.TrackerTest -->
+      <class name="tests.SurveyTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="surveyTestCases"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.SurveyTest -->
+      <class name="tests.PostsTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="postTestCases"/>
+          <include name="afterClassMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.PostsTest -->
+      <class name="tests.CreateProjectTemplateTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="beforeMethod"/>
+          <include name="projectTemplatesCreation"/>
+          <include name="afterClassMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.CreateProjectTemplateTest -->
+      <class name="tests.FilesTest">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="filesTestCases"/>
+          <include name="beforeMethod"/>
+          <include name="afterClassMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.FilesTest -->
     </classes>
   </test> <!-- MangoApps(failed) -->
 </suite> <!-- Failed suite [Suite] -->

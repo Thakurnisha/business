@@ -75,6 +75,7 @@ public class CreateProjectFromTemplate {
 			try {
 				Thread.sleep(3000);
 				Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\autoIt\\uploadTeamImage.exe");
+				Thread.sleep(10000);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -104,7 +105,7 @@ public class CreateProjectFromTemplate {
 		public void saveAndContiue() {
 			fetchElement.getElement("ID", pageObjects.CreateProjectFromTemplateObjects.saveAndContinuePath).click();
 			ExtentReport.logger.info("Saving project and configuring module");
-			sleepMethod(120000);
+			sleepMethod(180000);
 		}
 		
 		//configure page
