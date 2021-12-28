@@ -1,9 +1,9 @@
 package pageObjects;
 
 public interface DomainSettingsObjects {
-	String landPageSelectionButton = "landing_page"; //ID
+	String landPageSelectionButton = "domain_navigation_landing_page"; //ID
 	String selectChangeForAll = "//*[@for=\"landing_page_apply_to_all\"]"; //xpath
-	String saveChanges = "submit_landing_page"; //ID
+	String saveChanges = "//*[@class='actionbutton waves-effect ma-h5 waves-dark actionbutton actionblue waves-effect waves-light']"; //xpath
 	String appySettings = "//*[@id='fancybox-content']/div/div[3]/a[1]"; //xpath
 	String oldPass = "currentp"; //ID
 	String newPass = "newp"; //ID
@@ -22,5 +22,10 @@ public interface DomainSettingsObjects {
 	String deleteConfirm ="//span[text()='Delete Users']"; //xpath
 	String addDeleteConfirm = "//input[@name=\"delete_confirm\"]"; //xpath
 	String deleteButton = "//span[text()=\"Delete\"]"; //xpath
+	
+	
+	String navigationList = "manage_domain_navigation"; //ID
+	String selectDropdown = "//div[@class='col-md-12 left-p-0 top-5 right-p-0']"; //xpath
+	String optionList = "domain_navigation_landing_page"; //xpath
 	
 }

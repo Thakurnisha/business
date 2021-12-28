@@ -21,7 +21,7 @@ public class CreateProjectTemplateTest extends BaseTest {
 		createPublishedPost();
 		createPublishedPostWithoutFeatureImage();
 		createDraftPublishedPost();		
-//		createAnnouncementPostWithExpiryDate();
+								//		createAnnouncementPostWithExpiryDate();
 		createWiki();
 		createDraftWiki();
 		addMembers();
@@ -310,7 +310,8 @@ public class CreateProjectTemplateTest extends BaseTest {
 	void addTimeSheet() {
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		try {
-			ptemplate.navigateToSubmenu("Timesheets");
+//			ptemplate.navigateToSubmenu("Timesheets");
+			ptemplate.checkInMore("Timesheets");
 			ptemplate.addNewTimeLog();
 			ptemplate.addTimeToTimesheet();
 			ptemplate.addTitleToTimesheet();

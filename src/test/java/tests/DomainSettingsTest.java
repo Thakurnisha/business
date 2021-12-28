@@ -16,13 +16,13 @@ public class DomainSettingsTest extends BaseTest{
 	
 	
 	@Test(priority = 8)
-	void wikiTestCases() {
+	void domainSettingTestCases() {
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-		ext.setTest(methodName, "Wiki test cases");
+		ext.setTest(methodName, "Domain setting test cases");
 		login();
 		setLandingPage();
-		changePassword();
-		importUser();
+//		changePassword();
+//		importUser();
 	}
 	
 	
@@ -44,26 +44,24 @@ public class DomainSettingsTest extends BaseTest{
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		try {
 		ds.navigateToLandingPageSetting(cv.domainUrl);
+		ds.selectFromNavigationList("Default Network Users Navigation");
 		ds.clickLandingPageDropDown();
-		ds.selectOption("Company");
-		ds.clickLandingPageDropDown();
-		ds.selectForAll();
+		ds.selectOptions("Company");
+
 		ds.save();
-		ds.clickApplySetting();
 		//validate 
 		ds.navigateToHomePage(cv.domainUrl);
 		ds.validateCompanyAsLandingPage();
 		
 		//revert to default landing page
 		ds.navigateToLandingPageSetting(cv.domainUrl);
+		ds.selectFromNavigationList("Default Network Users Navigation");
 		ds.clickLandingPageDropDown();
-		ds.selectOption("News Feed");
-		ds.clickLandingPageDropDown();
-		ds.selectForAll();
+		ds.selectOptions("News Feed");
+
 		ds.save();
-		ds.clickApplySetting();
-		//validate
-		ds.navigateToSetLandingPage(cv.domainUrl);
+		//validate 
+		ds.navigateToHomePage(cv.domainUrl);
 		ds.validateNewsFeedAsLandingPage();
 		
 		

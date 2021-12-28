@@ -12,7 +12,10 @@ public interface PostsObjects {
 	String replaceImageButtonPath = "//div[@class='ps-column ps-column-view ps-outline-hover ps_column_image  ps-6-column']/div[2]/div"; //xapth
 	String selectMediaGalleryImage = "//ul[@class='gallery-icons ']/li[1]"; //xpath
 	String inputTextElements = "//div[@class='row mg-row mg-detail-sec']"; //xpath
-	String okButton ="//button[text()='Ok']"; //xpath
+	String okButton ="//button[text()='OK']"; //xpath
 	String altTextPath = "//a[@class='attachment_file']/img"; //xpath
 	String closePostpOpupPath = "//*[@id='ms-overlay-wrapper']/div[1]/span"; //xpath
+	
+	String selectMediaTab = "//*[@id='mountMediaGallery']/div/div[2]/div/div[2]"; //xpath
+	String galleryTabsList = "mg-body-tabs"; //class
 }

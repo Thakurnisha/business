@@ -121,7 +121,8 @@ public class CreateProjectFromTemplateTest extends BaseTest {
 	void validateTimesheetCopied() {
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		try {
-			project.navigateToSubmenu("Timesheets");
+//			project.navigateToSubmenu("Timesheets");
+			project.checkInMore("Timesheets");
 			project.verifyTimeSheetCreated();
 		}catch(Exception e) {
 			ext.logger.fail(methodName);

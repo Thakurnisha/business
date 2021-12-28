@@ -8,6 +8,8 @@ public interface ProjectTemplateObjects {
 		String hoverIconPath = "//*[@id=\"project-main-div\"]/div[1]/div/ul[2]";
 		String createButtonPath = "Create Project Template";
 		String modules = "modules_content"; //ID
+		String more = "//*[@class='lhs-dd-parent-click bound']"; //XPATH
+		String moreMenu = "//*[@id='moreFlyout']/ul"; //xpath
 		
 	//Create page
 		String teamNamePath = "teamName";
@@ -37,7 +39,7 @@ public interface ProjectTemplateObjects {
 		String splitButtonActions = "//*[@class='filter-container']/ul/li/ul"; //xpath
 		
 		String featureImageButtonPath = "pfi_st_btn"; //id
-		String selectUploadTab = "//*[@class='cke_dialog_body']/div/a[2]"; //xpath
+		String selectUploadTab = "//*[@class='cke_dialog_body']/div/a[1]"; //xpath
 		String firstImagePath = "//*[@id='ckeditor_filescke_2MediaLibrary']/div[2]/ul/li[1]"; //xapth
 		String mediaGalleryNextPath = "//span[contains(text(),'Next')]"; //xpath
 		String mediaGalleryFileUploadButtonPath = "ckeFileUploadBtn"; //id

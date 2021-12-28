@@ -182,6 +182,38 @@ public class CreateProjectFromTemplate {
 		 }
 		 
 		 
+		//check in more
+		 public void checkInMore(String subMenu) {
+			 try {
+			 fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.more).click();
+			 WebElement menu = fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.moreMenu);
+			 List <WebElement> eachItem = menu.findElements(By.tagName("li"));
+			 for(int i=0; i<eachItem.size();i++) {
+				 String item ="";
+				 
+					  item = eachItem.get(i).findElement(By.xpath("./a/div")).getAttribute("innerHTML");
+					 
+					  if(item.contains("&nbsp;")) {
+						  item = eachItem.get(i).findElement(By.xpath("./a/div[2]")).getAttribute("innerHTML");
+					  }
+				 
+				 
+				 System.out.println(item);
+				 
+				 if(item.toLowerCase().contains(subMenu.toLowerCase())) {
+					 eachItem.get(i).click();
+					 sleepMethod(5000);
+					 break;
+				 }
+			 }
+			 
+			 }catch(Exception e) {
+				 System.out.println(e);
+			 }
+		 }
+		 
+		 
+		 
 		 public void validatePostCreated(String name) {
 			 ExtentReport.logger.info("Validating posts copied");
 			 boolean validPost = false;

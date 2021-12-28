@@ -134,25 +134,33 @@ public class CreateProjectTemplate {
 		ExtentReport.logger.info("Enabling tracker,timesheet, pages and idea module");
 		WebElement menu = fetchElement.getElement("ID", pageObjects.ProjectTemplateObjects.modules);
 		List <WebElement> eachItem = menu.findElements(By.tagName("li"));
+		
 		for(int i=0; i<eachItem.size();i++) {
 			try {
 				String name = eachItem.get(i).getAttribute("data_name");
-				
-				if(name.equals("TRACKER")||name.equals("TIMESHEET")||name.equals("PAGES")||name.equals("IDEA")) {
-					if(name.equals("TRACKER")) {
+				System.out.println(name);
+				if(name.contains("TRACKER")||name.contains("TIMESHEET")||name.contains("PAGES")||name.contains("IDEA")) {
+					if(name.contains("TRACKER")) {
 						fetchElement.scrollToElement("enable_tracker");
-					}else if(name.equals("TIMESHEET")){
+						sleepMethod(3000);
+						
+					}else if(name.toLowerCase().contains("TIMESHEET".toLowerCase())){
 						fetchElement.scrollToElement("enable_timesheets");
-					}else if(name.equals("PAGES")){
+						sleepMethod(3000);
+						
+					}else if(name.toLowerCase().contains("PAGES".toLowerCase())){
 						fetchElement.scrollToElement("enable_overview");
-					}else if(name.equals("IDEA")){
+						sleepMethod(3000);
+						
+					}else if(name.toLowerCase().contains("IDEA".toLowerCase())){
 						fetchElement.scrollToElement("enable_idea");
+						sleepMethod(3000);
+						
 					}
-					
-					
 					
 					eachItem.get(i).findElement(By.xpath("./div[3]")).click();
 				}
+				
 			}catch(Exception e) {
 				System.out.println(e);
 			}
@@ -181,7 +189,7 @@ public class CreateProjectTemplate {
 	}
 	
 	
-	//posts
+	//menu
 	 public void navigateToSubmenu(String subMenu) {
 		 ExtentReport.logger.info("Navigating to "+subMenu+" page");
 		 
@@ -196,11 +204,46 @@ public class CreateProjectTemplate {
 				  item = eachItem.get(i).findElement(By.xpath("./a/div")).getAttribute("innerHTML");
 			 }
 			 
-			 if(item.equals(subMenu)) {
+			 System.out.println(item);
+			 
+			 if(item.toLowerCase().contains(subMenu.toLowerCase())) {
 				 eachItem.get(i).findElement(By.xpath("./a")).click();
 				 sleepMethod(5000);
 				 break;
 			 }
+		 }
+	 }
+	 
+	 
+	 //check in more
+	 public void checkInMore(String subMenu) {
+		 try {
+		 fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.more).click();
+		 WebElement menu = fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.moreMenu);
+		 List <WebElement> eachItem = menu.findElements(By.tagName("li"));
+		 for(int i=0; i<eachItem.size();i++) {
+			 String item ="";
+			 
+				  item = eachItem.get(i).findElement(By.xpath("./a/div")).getAttribute("innerHTML");
+				 
+				  if(item.contains("&nbsp;")) {
+					  item = eachItem.get(i).findElement(By.xpath("./a/div[2]")).getAttribute("innerHTML");
+				  }
+			 
+			 
+			 System.out.println(item);
+			 
+			 if(item.toLowerCase().contains(subMenu.toLowerCase())) {
+				 eachItem.get(i).click();
+				 sleepMethod(5000);
+				 break;
+			 }else {
+//				 fetchElement.getElement("XPATH", pageObjects.ProjectTemplateObjects.more).click();
+			 }
+		 }
+		 
+		 }catch(Exception e) {
+			 System.out.println(e);
 		 }
 	 }
 	 

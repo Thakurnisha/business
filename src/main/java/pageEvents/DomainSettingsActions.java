@@ -16,17 +16,67 @@ public class DomainSettingsActions {
 	
 	public void navigateToLandingPageSetting(String url) {
 		ExtentReport.logger.info("Navigate to landing setting page");
-		fetchElement.navaigateToUrl(url + "/ce/pulse/admin/domain/landing_page_setup");
+		fetchElement.navaigateToUrl(url + "/admin/domain/home_link");
 	}
 	
 	
 	public void clickLandingPageDropDown() {
+		try {
 		ExtentReport.logger.info("Navigate to landing setting page");
-		fetchElement.getElement("ID", pageObjects.DomainSettingsObjects.landPageSelectionButton).click();
+			fetchElement.getElement("XPATH", pageObjects.DomainSettingsObjects.selectDropdown).click();
+			sleepMethod(5000);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+	
+	
+	public void selectOptions(String option) {
+		ExtentReport.logger.info("Selection option: "+option);
+		try {
+			WebElement list = fetchElement.getElement("ID", pageObjects.DomainSettingsObjects.optionList);
+			List <WebElement> each = list.findElements(By.tagName("option"));
+			
+			for(int i=0; i<each.size();i++) {
+				String title = each.get(i).getAttribute("innerHTML").trim();
+				
+				if(title.toLowerCase().contains(option.toLowerCase())) {
+					 each.get(i).click();
+					 sleepMethod(5000);
+					 break;
+				}
+			}
+			}catch(Exception e) {
+				System.out.println(e);
+			}
+	}
+	
+	
+	
+	public void selectFromNavigationList(String listItem) {
+		ExtentReport.logger.info("Selecting users landing page setting for : "+listItem);
+		try {
+			WebElement list = fetchElement.getElement("ID", pageObjects.DomainSettingsObjects.navigationList);
+			List <WebElement> each = list.findElements(By.xpath("//div[starts-with(@id, 'nav_')]"));
+			
+			for(int i=0; i<each.size();i++) {
+				String title = each.get(i).findElement(By.xpath("./div/div/b")).getAttribute("innerHTML").trim();
+				
+				if(title.toLowerCase().contains(listItem.toLowerCase())) {
+					 each.get(i).findElement(By.xpath("./div/div/div/div")).click();
+					 each.get(i).findElement(By.xpath("./div/div/div/div/ul/li/ul")).click();
+					 sleepMethod(5000);
+					 break;
+				}
+			}
+			}catch(Exception e) {
+				System.out.println(e);
+			}
 	}
 	
 	
 	public void selectOption(String option) {
+		ExtentReport.logger.info("Selectiong Option: "+option);
 		try {
 		WebElement list = fetchElement.getElement("ID", pageObjects.DomainSettingsObjects.landPageSelectionButton);
 		List <WebElement> each = list.findElements(By.tagName("option"));
@@ -36,6 +86,7 @@ public class DomainSettingsActions {
 			
 			if(title.equals(option)) {
 				 each.get(i).click();
+				 sleepMethod(5000);
 				 break;
 			}
 		}
@@ -52,10 +103,14 @@ public class DomainSettingsActions {
 	
 	
 	public void save() {
+		try {
 		ExtentReport.logger.info("Clicking on save");
-		fetchElement.getElement("ID", pageObjects.DomainSettingsObjects.saveChanges).click();
+		fetchElement.getElement("XPATH", pageObjects.DomainSettingsObjects.saveChanges).click();
 		sleepMethod(3000);
 		
+	}catch(Exception e) {
+		System.out.println(e);
+		}
 	}
 	
 	

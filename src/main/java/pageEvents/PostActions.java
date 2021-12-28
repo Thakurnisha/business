@@ -94,10 +94,18 @@ public class PostActions {
 	 
 	 //new 
 	 public void selectImage() {
-		 ExtentReport.logger.info("Selecting image from media gallery");
-		 fetchElement.getElement("XPATH", pageObjects.PostsObjects.selectMediaGalleryImage).click();
-		 
+		 try {
+			 ExtentReport.logger.info("Selecting image from media gallery");
+			 fetchElement.getElement("XPATH", pageObjects.PostsObjects.selectMediaTab).click();
+			 fetchElement.getElement("XPATH", pageObjects.PostsObjects.selectMediaGalleryImage).click();
+		 }catch(Exception e) {
+			 System.out.println(e);
+		 }
 	 }
+	 
+	 
+	
+	 
 	 
 	 //new
 	 public void addAltText() {

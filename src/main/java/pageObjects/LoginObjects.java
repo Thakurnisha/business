@@ -13,4 +13,6 @@ public interface LoginObjects {
 	String pageUrl = "/u";
 	
 	String topContainerPath = "//*[@id='menu']/ul[2]";
+	
+	String lhsContaier = "lhs_container"; //ID
 }

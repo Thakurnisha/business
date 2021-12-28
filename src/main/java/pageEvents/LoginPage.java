@@ -43,13 +43,20 @@ public class LoginPage{
 	
 		String currentUrl = fetchElement.getUrl();
 		ExtentReport.logger.info("Verifying login");
+		boolean isVisible= false;
+		try {
+			isVisible = fetchElement.getElement("ID", pageObjects.LoginObjects.lhsContaier).isDisplayed();
+		}catch(Exception e){
 		
-		int index = currentUrl.indexOf("/ce/pulse/user");
+		}
+		
+		
+//		int index = currentUrl.indexOf("/ce/pulse/user");
 //		softAssert.assertNotEquals(index, -1, "User logged in successfully"); //testNG report
 //		softAssert.assertAll(); 
 		
 		//extent report
-		if(index != -1) {
+		if(isVisible == true) {
 			ExtentReport.logger.pass("Login Successfull");
 		}else {
 			ExtentReport.logger.fail("Login failed");
