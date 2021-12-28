@@ -225,7 +225,7 @@ public class PagesActions {
 		 sleepMethod(3000);
 	 }
 	 
-	 public void findPage(String pageName) {
+	 public boolean findPage(String pageName) {
 		 ExtentReport.logger.info("Finding pages created from automation");
 		 WebElement pages =  fetchElement.getElement("ID", pageObjects.PagesObjects.pageTabBar);
 		 List <WebElement> each = pages.findElements(By.tagName("li"));
@@ -250,7 +250,7 @@ public class PagesActions {
 			System.out.println(e);
 		}	
 		
-		
+		return isPagePresent;
 	 }
 	 
 	 

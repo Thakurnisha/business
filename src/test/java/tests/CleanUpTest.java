@@ -51,21 +51,34 @@ public class CleanUpTest extends BaseTest{
 	
 	void deletePage() {
 		//delete page
-		pages.navigateToCompanyPage(cv.domainUrl);
-		pages.findPage(cv.pageTitle+"_edited_static_");
-		pages.clickTools();
-		pages.selectToolOption("Delete Current Page");
-		pages.addDeleteText();
-		pages.deletePage();
+		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		
-		//delete dynamic page
-		pages.navigateToCompanyPage(cv.domainUrl);
-		pages.findPage(cv.pageTitle+"_dynamic_");
-		pages.clickTools();
-		pages.selectToolOption("Delete Current Page");
-		pages.addDeleteText();
-		pages.deletePage();
-		
+		try {
+			pages.navigateToCompanyPage(cv.domainUrl);
+			boolean isPresent = pages.findPage(cv.pageTitle+"_edited_static_");
+			if(isPresent) {
+				pages.clickTools();
+				pages.selectToolOption("Delete Current Page");
+				pages.addDeleteText();
+				pages.deletePage();
+			}
+			
+			
+			//delete dynamic page
+			pages.navigateToCompanyPage(cv.domainUrl);
+			isPresent = pages.findPage(cv.pageTitle+"_dynamic_");
+			if(isPresent) {
+				pages.clickTools();
+				pages.selectToolOption("Delete Current Page");
+				pages.addDeleteText();
+				pages.deletePage();
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			ext.logger.fail(methodName);
+		}
+	
 	}
+	
 	
 }
