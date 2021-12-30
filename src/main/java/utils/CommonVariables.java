@@ -27,7 +27,7 @@ public class CommonVariables {
 	public String surveyName ="";
 	
 	public void readConfigFile() throws IOException {
-//		System.setProperty("env", "EE"); //for testing in local comment when adding to git
+//		System.setProperty("env", "EUROPE-DC"); //for testing in local comment when adding to git
 		String dir = System.getProperty("user.dir");
 		try {
 			InputStream input;
@@ -42,6 +42,8 @@ public class CommonVariables {
 				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\sydney-dc.properties");
 			}else if(environmentData.equals("GERMANY-DC")) {
 				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\germany-dc.properties");
+			}else if(environmentData.equals("EUROPE-DC")) {
+				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\europe-dc.properties");
 			}else if(environmentData.equals("YMCA")) {
 				input = new FileInputStream(dir+"\\src\\main\\java\\environments\\ymca.properties");
 			}else {

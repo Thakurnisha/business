@@ -24,7 +24,7 @@ public interface TrackerObjects {
 	String clickArchiveButton = "//a[text()='Archive']"; //xpath
 	
 	
-	String splitbutton = "//a[@class='actionbutton actionblue waves-effect waves-light ma-h5 ma-action-smn']"; //class
+	String splitbutton = "//a[@class='actionbutton actionblue waves-effect waves-light ma-h5 ma-action-smn right-rounded-corner-button-important']"; //class
 	String importAction = "tracker-import-spreadsheet"; //ID
 	String importFileButton = "import_spreadsheet_file"; //ID
 	String createButton = "//a[text()='Create']";//xpath

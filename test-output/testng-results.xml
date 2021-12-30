@@ -1,50 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-28T18:16:39 IST" name="Suite" finished-at="2021-12-28T18:24:02 IST" duration-ms="443274">
+  <suite started-at="2021-12-30T12:46:03 IST" name="Suite" finished-at="2021-12-30T12:47:00 IST" duration-ms="56875">
     <groups>
     </groups>
-    <test started-at="2021-12-28T18:16:39 IST" name="MangoApps" finished-at="2021-12-28T18:24:02 IST" duration-ms="443274">
-      <class name="tests.CleanUpTest">
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.CleanUpTest@2805d709]" started-at="2021-12-28T18:22:14 IST" name="beforeClassMethod" finished-at="2021-12-28T18:22:14 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.CleanUpTest@2805d709]" started-at="2021-12-28T18:22:14 IST" name="beforeMethod" finished-at="2021-12-28T18:22:16 IST" duration-ms="1108" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="cleanUpTestCases()[pri:100, instance:tests.CleanUpTest@2805d709]" started-at="2021-12-28T18:22:16 IST" name="cleanUpTestCases" finished-at="2021-12-28T18:24:02 IST" duration-ms="106049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUpTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CleanUpTest@2805d709]" started-at="2021-12-28T18:24:02 IST" name="afterMethod" finished-at="2021-12-28T18:24:02 IST" duration-ms="699" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.CleanUpTest@2805d709]" started-at="2021-12-28T18:24:02 IST" name="afterClassMethod" finished-at="2021-12-28T18:24:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassMethod -->
-      </class> <!-- tests.CleanUpTest -->
-      <class name="tests.PagesTest">
-        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:tests.PagesTest@54bff557]" started-at="2021-12-28T18:16:39 IST" name="beforeSuiteMethod" finished-at="2021-12-28T18:16:39 IST" duration-ms="126" status="PASS">
+    <test started-at="2021-12-30T12:46:03 IST" name="MangoApps" finished-at="2021-12-30T12:47:00 IST" duration-ms="56875">
+      <class name="tests.DomainSettingsTest">
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:tests.DomainSettingsTest@1de76cc7]" started-at="2021-12-30T12:46:03 IST" name="beforeSuiteMethod" finished-at="2021-12-30T12:46:03 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuiteMethod -->
-        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.PagesTest@54bff557]" started-at="2021-12-28T18:16:39 IST" name="beforeClassMethod" finished-at="2021-12-28T18:16:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:tests.DomainSettingsTest@1de76cc7]" started-at="2021-12-30T12:46:03 IST" name="beforeClassMethod" finished-at="2021-12-30T12:46:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.PagesTest@54bff557]" started-at="2021-12-28T18:16:39 IST" name="beforeMethod" finished-at="2021-12-28T18:16:41 IST" duration-ms="1495" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:tests.DomainSettingsTest@1de76cc7]" started-at="2021-12-30T12:46:03 IST" name="beforeMethod" finished-at="2021-12-30T12:46:05 IST" duration-ms="1590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,19 +26,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="pagesTestCases()[pri:6, instance:tests.PagesTest@54bff557]" started-at="2021-12-28T18:16:41 IST" name="pagesTestCases" finished-at="2021-12-28T18:22:13 IST" duration-ms="332882" status="PASS">
+        <test-method signature="domainSettingTestCases()[pri:8, instance:tests.DomainSettingsTest@1de76cc7]" started-at="2021-12-30T12:46:05 IST" name="domainSettingTestCases" finished-at="2021-12-30T12:46:59 IST" duration-ms="54346" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pagesTestCases -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.PagesTest@54bff557]" started-at="2021-12-28T18:22:13 IST" name="afterMethod" finished-at="2021-12-28T18:22:14 IST" duration-ms="1003" status="PASS">
+        </test-method> <!-- domainSettingTestCases -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DomainSettingsTest@1de76cc7]" started-at="2021-12-30T12:46:59 IST" name="afterMethod" finished-at="2021-12-30T12:47:00 IST" duration-ms="912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.PagesTest@54bff557]" started-at="2021-12-28T18:22:14 IST" name="afterClassMethod" finished-at="2021-12-28T18:22:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:tests.DomainSettingsTest@1de76cc7]" started-at="2021-12-30T12:47:00 IST" name="afterClassMethod" finished-at="2021-12-30T12:47:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassMethod -->
-      </class> <!-- tests.PagesTest -->
+      </class> <!-- tests.DomainSettingsTest -->
     </test> <!-- MangoApps -->
   </suite> <!-- Suite -->
 </testng-results>

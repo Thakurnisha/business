@@ -62,7 +62,7 @@ public class FilesTest extends BaseTest {
 	void shareFolderWithFilesAndViewWithLink() {
 		String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 		try {
-			//share folder with file 
+//			share folder with file 
 			file.rightClickProjectSubfolder(folderName, cv.projectName);
 			file.selectFolderAction("Share Folder", folderName, cv.projectName);
 			file.shareFolderOptions();
@@ -119,6 +119,7 @@ public class FilesTest extends BaseTest {
 			file.navigateToFilespage(cv.domainUrl);
 			file.expandProjectNode();
 			file.selectProjectNode(cv.projectName);
+			file.expandProjectNode();
 			file.rightClickProjectSubfolder(folderName, cv.projectName);
 			file.selectFolderAction("Delete", folderName, cv.projectName);
 			file.addDeleteText();

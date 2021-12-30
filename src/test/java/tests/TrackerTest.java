@@ -23,7 +23,7 @@ public class TrackerTest extends BaseTest{
 		
 		System.out.println("trackerTestCases test executed>>>>>>>>>>");				
 		login();
-		addewTracker();
+//		addewTracker();
 		importTracker();
 		
 	}
